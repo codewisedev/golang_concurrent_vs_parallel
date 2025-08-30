@@ -115,17 +115,6 @@ GOMAXPROCS: 8
 - **Most real-world applications** fall here
 - **Balance** between CPU and I/O operations
 
-### Environment Variables
-
-```bash
-# Control Go runtime behavior
-export GOMAXPROCS=4        # Limit to 4 cores
-export GOGC=100           # Garbage collection frequency
-export GODEBUG=gctrace=1  # Enable GC tracing
-
-go run benchmark.go
-```
-
 ## 📄 License
 
 This benchmark is provided as educational material. Feel free to use, modify, and distribute for learning and development purposes.
